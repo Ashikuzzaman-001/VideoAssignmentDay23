@@ -1,0 +1,60 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.wrapperDiv{
+     width: 1000px;
+     border: 1px solid red;
+     margin: 50px auto;
+}
+.BasicDesign{
+    background-color: orange;
+    height: 200px;
+    width: 200px ;
+    margin: 20px;
+    display: inline-block;
+}
+.div1{
+    transform: translateY(0);
+    transition: .5s;
+}
+.div1:hover{
+    transform: translateY(70px);
+}
+.div2{
+   transform: rotate(0);
+   transition: .5s;
+}
+.div2:hover{
+    transform: rotate(57deg);
+}
+.div3{
+    transform: skew(0);
+    transition: .5s;
+}
+.div3:hover{
+    transform: skew(32deg,29deg);
+}
+.div4{
+    transition: .5s;
+}
+.div4:hover{
+   transform: scale(1.5);
+
+}
+.Img-hover{
+    width: 400px;
+    margin: auto;
+    text-align: center;
+    border: 1px solid red;
+    padding: 50px;
+}
+.Img-hover img{
+  max-width: 100% ;
+  cursor: pointer;
+  transition: 1s;
+}
+.Img-hover img:hover{
+    transform: scale(1.4) rotate(360deg);
+    
+}
